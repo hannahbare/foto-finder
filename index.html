@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Foto Finder</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>FOTO <img src="photos/foto-finder-logo.svg"> FINDER</h1>
+    <section class="input__section">
+      <form action="" method="get" class="header__inputs">
+        <aside class="box--one">
+          <label for="input__title--id" class="header__name">Title</label>
+          <input type="text" name="title" class="input__title" id="input__title--id">
+        </aside>
+        <aside class="box--two">
+          <label for="input__caption--id" class="header__name">Caption</label>
+          <input type="text" name="caption" class="input__caption" id="input__caption--id">
+        </aside>
+      </form>
+      <form action="" method="get">
+        <aside class="header__buttons">
+          <label for="button__choose-file"></label>
+          <input type="submit" 
+          class="button__file" 
+          id="button__choose-file"
+          value="Choose File">
+          <label for="button__add-to-file"></label>
+          <input type="submit" 
+          class="button__add" 
+          id="button__add-to-file"
+          value="Add to Album">
+        </aside>
+      </form>
+    </section>
+  </header>
+  <main>
+    <article class="card__body">
+      <h2>Waterfall Image</h2>
+      <img src="" alt="Image of..." class="card__image">
+      <p class="card__description">Lorem impsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <p class="card__icons">
+        <img src="photos/delete.svg" alt="Garbage icon for delete.">
+        <img src="photos/favorite.svg" alt="Heart icon for favorites.">
+      </p>
+    </article>
+  </main>
+
+</body>
+</html>

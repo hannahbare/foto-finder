@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #FFF;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #3E2A35;
+  height: 42rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+img {
+  height: 70px;
+  width: auto;
+}
+
+.input__section {
+  width: 80%;
+  margin-left: 5rem;
+}
+
+.header__inputs {
+  font-size: 2rem;
+  color: #C2B2B4;
+}
+
+.box--one,
+.box--two {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.header__name {
+  padding-bottom: .6rem;
+}
+
+.input__title,
+.input__caption {
+  height: 5rem;
+}
+
+.header__buttons {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.button__file,
+.button__add {
+  height: 5rem;
+  width: 45.5%;
+  background-color: #938284;
+  border: none;
+  color: #FFF;
+  font-size: 2.4rem;
+}
+
+.button__add {
+  margin-left: 4rem;
+}
+
+main {
+  background-color: #C2B2B4;
+  color: #FFF;
+  height: 100vh;
+}
+
+.card__body {
+  height: 60rem;
+  width: 80%;
+  border: 1px solid #938284;
+  margin: 2rem;
+}
+
+h2 {
+  margin: 0;
+  height: 6rem;
+  background-color: #FFF;
+  color: #3E2A35;
+  font-size: 4rem;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.card__image {
+  height: 25rem;
+}
+
+.card__description {
+  height: 25rem;
+  color: black;
+  background-color: white;
+  font-size: 2rem;
+}
+
+.card__icons {
+  height: 20rem;
+}
+
+
+
