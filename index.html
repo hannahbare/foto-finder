@@ -12,25 +12,42 @@
       <form action="" method="get" class="header__inputs">
         <aside class="box--one">
           <label for="input__title--id" class="header__name">Title</label>
-          <input type="text" name="title" class="input__title" id="input__title--id">
+          <input type="text" name="title" maxlength="40" class="input__title" id="input__title--id">
         </aside>
         <aside class="box--two">
           <label for="input__caption--id" class="header__name">Caption</label>
-          <input type="text" name="caption" class="input__caption" id="input__caption--id">
+          <input type="text" name="caption" maxlength="140" class="input__caption" id="input__caption--id">
         </aside>
       </form>
       <form action="" method="get">
         <aside class="header__buttons">
-          <label for="button__choose-file"></label>
-          <input type="submit" 
+
+
+
+
+
+          <label for="choose-file" class="label__file"></label>
+          <input type="file" 
           class="button__file" 
-          id="button__choose-file"
+          id="choose-file"
+          data-multiple-caption="{count} files selected" multiple
           value="Choose File">
-          <label for="button__add-to-file"></label>
+
+
+
+
+
+
+          <label for="add-to-file"></label>
           <input type="submit" 
           class="button__add" 
-          id="button__add-to-file"
+          id="add-to-file"
           value="Add to Album">
+
+
+
+
+          
         </aside>
       </form>
     </section>
@@ -38,11 +55,11 @@
   <main>
     <article class="card__body">
       <h2>Waterfall Image</h2>
-      <img src="" alt="Image of..." class="card__image">
+      <img src="photos/waterfall.jpeg" alt="Image of..." class="card__image">
       <p class="card__description">Lorem impsum dolor sit amet, consectetuer adipiscing elit.</p>
       <p class="card__icons">
-        <img src="photos/delete.svg" alt="Garbage icon for delete.">
-        <img src="photos/favorite.svg" alt="Heart icon for favorites.">
+        <img src="photos/delete.svg" alt="Garbage icon for delete." class="bottom--icons icon--garbage">
+        <img src="photos/favorite.svg" alt="Heart icon for favorites." class="bottom--icons icon--favorite">
       </p>
     </article>
   </main>
